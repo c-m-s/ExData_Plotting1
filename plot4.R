@@ -1,12 +1,12 @@
 ########################################################################################
 ##
-## Date 2014-06-04
+## Date 2015-05-10
 ## Written by Carl Smith for Exploratory Data Analysis class
 ## 
 ## Software used to test and run script:
-## MacOS X 10.9.3
-## R version 3.1.0 (2014-04-10) -- "Spring Dance"
-## RStudio Version 0.98.507
+## MacOS X 10.10.3
+## R version 3.2.0 (2015-04-16) -- "Full of Ingredients"
+## RStudio Version 0.98.1103
 ##
 ########################################################################################
 
@@ -66,7 +66,7 @@ plot4 <- function() {
         ##   - Name each of the plot files as plot1.png, plot2.png, etc.
         
         # general plot setup
-        png(file="plot4.png", width = 480, height = 480, units = "px", bg = "transparent")
+        png(file="plot4.png", width = 480, height = 480, units = "px", bg = "white")
         par(mfcol = c(2,2))
         
         # sub-plot 1
@@ -80,7 +80,7 @@ plot4 <- function() {
              xlab="", ylab="Energy sub metering")
         lines(powerdata2days$datetime, powerdata2days$Sub_metering_2, col="red")
         lines(powerdata2days$datetime, powerdata2days$Sub_metering_3, col="blue")
-        legend("topright", lty=1, col=c("black", "red", "blue"), 
+        legend("topright", lty=1, col=c("black", "red", "blue"), bty="n",
                legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
         
         # sub-plot 3

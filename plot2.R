@@ -1,12 +1,12 @@
 ########################################################################################
 ##
-## Date 2014-06-04
+## Date 2015-05-10
 ## Written by Carl Smith for Exploratory Data Analysis class
 ## 
 ## Software used to test and run script:
-## MacOS X 10.9.3
-## R version 3.1.0 (2014-04-10) -- "Spring Dance"
-## RStudio Version 0.98.507
+## MacOS X 10.10.3
+## R version 3.2.0 (2015-04-16) -- "Full of Ingredients"
+## RStudio Version 0.98.1103
 ##
 ########################################################################################
 
